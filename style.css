@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+
+html {
+  scroll-behavior: smooth; 
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
+}
+
+a {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #5d7260;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portrait-container {
+  margin-left: 20px;
+}
+
+.portrait-container img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.section-item {
+  position: relative;
+  padding-left: 30px;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.section-item a:hover {
+  color: #4d2323;
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #829985;
+  border-radius: 50%;
+}
+
+.section-item ul {
+  padding-left: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 20px;
+  white-space: pre-wrap;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img[alt="Logo of courses"] {
+  max-width: 150px;
+  min-height: 30px;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container p {
+  margin: 0;
+}
+
+.footer-container a {
+  display: inline-block;
+  vertical-align: middle;
+}
