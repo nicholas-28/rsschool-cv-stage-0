@@ -1,8 +1,6 @@
 # Nikolai Cherenkov
 
 ## Name:
-- Adress: Kote Makharadze 6, Tbilisi, Georgia
-- Phone: +995551107327
 - E-mail: nicholascher28@gmail.com
 
 ## About Me
